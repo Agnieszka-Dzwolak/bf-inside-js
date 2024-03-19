@@ -20,6 +20,8 @@ for (const value of values) {
   _1_types.push(type);
 }
 
+console.log(_1_types);
+
 // map using boolean coercion and + 'y'
 const _2_truthiness = [];
 for (const value of values) {
@@ -27,6 +29,8 @@ for (const value of values) {
   const truthiness = castToBool + 'y';
   _2_truthiness.push(truthiness);
 }
+
+console.log(_2_truthiness);
 
 const _3_strings = ['infinity', '1.4', '1000', 'NaN'];
 
@@ -36,5 +40,7 @@ for (const string of _3_strings) {
   const isNaNy = isNaN(string);
   _3_areNaNy.push(isNaNy);
 }
+
+console.log(_3_areNaNy);
 
 console.log('-- end --');
