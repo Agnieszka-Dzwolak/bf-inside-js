@@ -20,9 +20,12 @@ const hasACat = (string = '') => {
   return string.toLowerCase().includes('cat');
 };
 const isMyName = (txt = '') => {
-  return txt === '__'; // <-- your name here
+  return txt === 'aga'; // <-- your name here
 };
 
+console.log(isLongString(''));
+console.log(hasACat());
+console.log(isMyName());
 // --- declare function that uses a callback ---
 
 /**

@@ -55,7 +55,7 @@ const add = (x, y) => {
  *
  * @param {any} a
  * @param {any} b
- * @returns {boolean} Tesult of the comparison.
+ * @returns {boolean} Result of the comparison.
  */
 const strictEqual = (a, b) => {
   return a === b;
